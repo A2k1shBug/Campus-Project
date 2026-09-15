@@ -1,0 +1,41 @@
+.error-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: var(--color-negative-soft);
+  border: 1px solid rgba(214, 72, 107, 0.25);
+  color: #8a2f47;
+  border-radius: var(--radius-sm);
+  padding: 11px 14px;
+  font-size: 13.5px;
+  font-weight: 600;
+  margin-bottom: var(--space-4);
+}
+
+.error-banner-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-negative);
+  flex-shrink: 0;
+}
+
+.error-banner-text {
+  flex: 1;
+}
+
+.error-banner-actions {
+  display: flex;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+.error-banner-action {
+  background: none;
+  border: none;
+  color: #8a2f47;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: underline;
+  padding: 0;
+}

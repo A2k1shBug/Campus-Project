@@ -1,0 +1,88 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.profile-header h2 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.profile-roles {
+  display: flex;
+  gap: 6px;
+}
+
+.profile-role-badge {
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-soft);
+  color: var(--color-accent-ink);
+}
+
+.profile-section {
+  padding: var(--space-5);
+}
+
+.profile-section h3 {
+  font-size: 17px;
+  margin-bottom: var(--space-1);
+}
+
+.profile-section-desc {
+  color: var(--color-ink-soft);
+  font-size: 13.5px;
+  margin: 4px 0 var(--space-4);
+}
+
+.profile-success {
+  background: var(--color-positive-soft);
+  color: var(--color-positive);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+}
+
+.profile-danger {
+  border-color: rgba(214, 72, 107, 0.25);
+}
+
+.profile-delete-confirm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: var(--color-negative-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #8a2f47;
+}
+
+.profile-delete-confirm-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+@media (max-width: 480px) {
+  .profile-delete-confirm,
+  .profile-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

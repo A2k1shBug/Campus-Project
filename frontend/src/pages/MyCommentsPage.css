@@ -1,0 +1,99 @@
+.comments-page-heading {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.comments-page-sub {
+  color: var(--color-ink-soft);
+  font-size: 13.5px;
+  margin-bottom: var(--space-5);
+}
+
+.comments-page-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.comments-page-item {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-4);
+}
+
+.comments-page-item-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.comments-page-item-top {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: 4px;
+}
+
+.comments-page-item-author {
+  font-weight: 700;
+  font-size: 13.5px;
+}
+
+.comments-page-sentiment {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+}
+
+.sentiment-positive {
+  background: var(--color-positive-soft);
+  color: var(--color-positive);
+}
+
+.sentiment-neutral {
+  background: var(--color-neutral-soft);
+  color: var(--color-neutral);
+}
+
+.sentiment-negative {
+  background: var(--color-negative-soft);
+  color: var(--color-negative);
+}
+
+.comments-page-item-time {
+  font-size: 11.5px;
+  color: var(--color-ink-faint);
+  margin-left: auto;
+}
+
+.comments-page-item-text {
+  font-size: 14px;
+  color: var(--color-ink);
+  margin-bottom: 8px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.comments-page-item-actions {
+  display: flex;
+  gap: var(--space-3);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.comments-page-item-actions a {
+  color: var(--color-accent-ink);
+}
+
+.comments-page-item-actions button {
+  background: none;
+  border: none;
+  color: var(--color-ink-soft);
+  padding: 0;
+}
+
+.comments-page-item-actions button:hover {
+  color: var(--color-danger);
+}

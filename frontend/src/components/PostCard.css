@@ -1,0 +1,126 @@
+.post-card {
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  margin-bottom: var(--space-4);
+  transition: box-shadow var(--transition);
+}
+
+.post-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.post-card-meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.post-card-author {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-ink);
+}
+
+.post-card-time {
+  font-size: 12px;
+  color: var(--color-ink-faint);
+}
+
+.post-card-owner-actions {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.post-card-icon-btn {
+  background: none;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: var(--color-ink-faint);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card-icon-btn:hover {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.post-card-icon-btn-danger:hover {
+  color: var(--color-danger);
+  background: var(--color-negative-soft);
+}
+
+.post-card-body {
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.post-card-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.post-card-text {
+  color: var(--color-ink-soft);
+  font-size: 14.5px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.post-card-error {
+  color: var(--color-danger);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.post-card-confirm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: var(--color-negative-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  margin-bottom: var(--space-3);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #8a2f47;
+}
+
+.post-card-confirm-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.post-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid var(--color-line);
+  padding-top: var(--space-3);
+}
+
+.post-card-view-btn {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-accent);
+  padding: 6px 14px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-accent);
+  transition: background var(--transition), color var(--transition);
+}
+
+.post-card-view-btn:hover {
+  background: var(--color-accent);
+  color: #fff;
+}

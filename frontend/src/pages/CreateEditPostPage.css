@@ -1,0 +1,42 @@
+.post-form-page {
+  padding-top: var(--space-2);
+}
+
+.post-form-heading {
+  font-size: 22px;
+  margin-bottom: var(--space-4);
+}
+
+.post-form {
+  padding: var(--space-5);
+}
+
+.visibility-toggle {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.visibility-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-line-strong);
+  background: var(--color-card);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-ink-soft);
+  transition: border-color var(--transition), background var(--transition), color var(--transition);
+}
+
+.visibility-btn.is-active {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  color: var(--color-accent-ink);
+}
+
+.post-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}

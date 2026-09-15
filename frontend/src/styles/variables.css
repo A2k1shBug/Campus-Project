@@ -1,0 +1,69 @@
+/*
+  Design tokens for the app.
+
+  Palette
+  - Paper:     #FAF8F3  (warm off-white background)
+  - Ink:       #201B2C  (near-black plum, primary text)
+  - Ink soft:  #5B5468  (secondary text)
+  - Violet:    #6F5AF6  (primary accent — actions, links, focus)
+  - Violet-ink:#4B3AC9  (hover/active state of accent)
+  - Line:      #E8E2D9  (borders, dividers)
+  - Card:      #FFFFFF  (surface)
+
+  Sentiment signal colors (small, used sparingly as dots/labels on comments):
+  - Positive: #2F9E63
+  - Neutral:  #C7871A
+  - Negative: #D6486B
+
+  Type
+  - Display/headings: "Fraunces" (serif, has personality, optical sizing)
+  - UI/body: "Manrope" (sans, clean and readable at small sizes)
+*/
+
+:root {
+  --color-paper: #faf8f3;
+  --color-card: #ffffff;
+  --color-ink: #201b2c;
+  --color-ink-soft: #5b5468;
+  --color-ink-faint: #8e8798;
+  --color-line: #e8e2d9;
+  --color-line-strong: #d9d1c4;
+
+  --color-accent: #6f5af6;
+  --color-accent-ink: #4b3ac9;
+  --color-accent-soft: #efecfe;
+
+  --color-positive: #2f9e63;
+  --color-positive-soft: #e5f5ec;
+  --color-neutral: #c7871a;
+  --color-neutral-soft: #faf1e0;
+  --color-negative: #d6486b;
+  --color-negative-soft: #fbe9ee;
+
+  --color-danger: #d6486b;
+  --color-danger-soft: #fbe9ee;
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 1px 2px rgba(32, 27, 44, 0.04), 0 8px 24px rgba(32, 27, 44, 0.06);
+  --shadow-pop: 0 12px 32px rgba(32, 27, 44, 0.14);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --max-content: 640px;
+  --max-app: 1180px;
+
+  --transition: 160ms ease;
+}

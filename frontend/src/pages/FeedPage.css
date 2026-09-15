@@ -1,0 +1,38 @@
+.feed-composer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+  color: var(--color-ink-faint);
+  font-size: 14px;
+  font-weight: 600;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.feed-composer:hover {
+  border-color: var(--color-accent);
+}
+
+.feed-posted-note {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  background: var(--color-accent-soft);
+  color: var(--color-accent-ink);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: var(--space-4);
+}
+
+.feed-posted-note button {
+  background: none;
+  border: none;
+  color: var(--color-accent-ink);
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: auto;
+  flex-shrink: 0;
+}
